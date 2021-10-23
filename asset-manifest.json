@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ttrpgtemplate/static/css/main.3a81f45c.chunk.css",
+    "main.js": "/ttrpgtemplate/static/js/main.d1111017.chunk.js",
+    "main.js.map": "/ttrpgtemplate/static/js/main.d1111017.chunk.js.map",
+    "runtime-main.js": "/ttrpgtemplate/static/js/runtime-main.ebdda139.js",
+    "runtime-main.js.map": "/ttrpgtemplate/static/js/runtime-main.ebdda139.js.map",
+    "static/js/2.05676dfc.chunk.js": "/ttrpgtemplate/static/js/2.05676dfc.chunk.js",
+    "static/js/2.05676dfc.chunk.js.map": "/ttrpgtemplate/static/js/2.05676dfc.chunk.js.map",
+    "index.html": "/ttrpgtemplate/index.html",
+    "static/css/main.3a81f45c.chunk.css.map": "/ttrpgtemplate/static/css/main.3a81f45c.chunk.css.map",
+    "static/js/2.05676dfc.chunk.js.LICENSE.txt": "/ttrpgtemplate/static/js/2.05676dfc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebdda139.js",
+    "static/js/2.05676dfc.chunk.js",
+    "static/css/main.3a81f45c.chunk.css",
+    "static/js/main.d1111017.chunk.js"
+  ]
+}
