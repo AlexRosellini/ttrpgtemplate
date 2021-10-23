@@ -1,38 +1,67 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* a, * a:visited, * a:hover, * a:link {
+  font-style: none;
+}
+
+.header {
+  background-color: #999999;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Geneva, Verdana, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header p {
+  padding-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header__smaller {
+  font-size: 12px;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav {
+  list-style: none;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.89);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav__ul li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: lightgray;
+}
+
+.card-left img {
+  width: 500px;
+  height: 500px;
+}
+
+.card-right {
+  margin-left: 5px;
+  padding-left: 5px;
+  border-left: 1px solid black;
 }

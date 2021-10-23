@@ -1,0 +1,33 @@
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(194, 188, 188, 0.836);
+  padding-left: 20px;
+}
+
+.card-left {
+  width: 40%;
+  height: 500px;
+  padding-left: 20px;
+}
+
+.card-left img {
+  width: 100%;
+}
