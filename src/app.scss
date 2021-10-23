@@ -48,7 +48,7 @@
     margin-left: 10px;
     padding-top: 10px;
     padding-left: 10px;
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.671);
 
     &-left {
         & img {
@@ -61,5 +61,13 @@
         margin-left: 5px;
         padding-left: 5px;
         border-left: 1px solid black;
+
+        &__abilities {
+            padding-top: 10px;
+            margin-top: 20px;
+            border-top: 1px solid black;
+        }
+
+
     }
 }
