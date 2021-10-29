@@ -41,6 +41,20 @@ const data = [
         domain:`Once a day per level, Xavier can force all foes to roll a will save or be frightened. Moreover, he
         gains the ability to detect any form of lie instinctively.`
     },
+    {
+        name: "Erastil",
+        alignment: "Lawful Good",
+        picture: `https://s1.zerochan.net/Schwarz.%28Arknights%29.600.2933452.jpg`,
+        description: `The goddess of the hunt and one of the oldest gods of Golarion. Schwarz believes in communion between
+        all beings and nature, she protects harvet, as well as grants bountiful hunts.`,
+        physical: `Xavier's dexterity becomes 30 and constitution becomes 30 and he becomes immune to disease, he also gains
+        dark vision and a +5 to every dice made in a forest. Moreover, he gains the tracking skill while attuned, with 
+        automatically max ranked in it.`,
+        abilities: `Xavier gains the ability to morph into any animals he has seen, as well as manipulate nature; he gains the ability
+        to turn animals into allies if they are "sane" (aka uncorrupted); Through his control of nature, Xavier can also create any 
+        vegetal element.`,
+        domain: `Xavier becomes immuned to crit fails while in a forest; moreover he can turn one dice a day into a natural 20 while in a forest.`
+    },
 ]
 
 const Template = () => {
